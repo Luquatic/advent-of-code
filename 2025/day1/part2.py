@@ -29,7 +29,7 @@ def rotate(line: str):
 
     if direction == "R":
         currentNumber = (currentNumber + amount) % 100
-    else:  # "L"
+    else:
         currentNumber = (currentNumber - amount) % 100
 
 
